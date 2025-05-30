@@ -8,7 +8,7 @@ Desafío Alura Latam, para especialización backend temporada 2025.
 <ul>- Finalización de archivo readme.md.</ul>
 
 <H2>Qué es un conversor de monedas?</H2>
-Un conversor de moneda, es una herramienta que nos permite convertir valores de distintas divisas entre sí. Esta aplicación, convierte valores de las monedas de Estados Unidos, Argentina, Brasil y Chile. En futuras versiones se agregarán otras monedas importantes de la región.
+Un conversor de moneda, es una herramienta que nos permite convertir valores de distintas divisas entre sí. Esta aplicación convierte valores de las monedas de Estados Unidos, Argentina, Brasil y Chile. En futuras versiones se agregarán otras monedas importantes de la región.
 
 <H2>Modo de utilización</H2>
 <ol>1. Escribe el número de la opción que deseas saber, presiona enter. La aplicación te devolverá el cambio de la divisa seleccionada.</ol>
