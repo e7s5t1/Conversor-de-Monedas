@@ -8,7 +8,7 @@ public class Principal {
         while (opcion != 8){
             System.out.println("***********************************\n" +
                     "Conversor de Monedas\n\n" +
-                    "Selecciona la opción que quieres convertir\n\n" +
+                    "Escribe el número de la opción que quieres convertir\n\n" +
                         "1.Dolar a Peso Argentino\n" +
                         "2.Peso Argentino a Dolar\n" +
                         "3.Dolar a Real Brasilero\n" +
@@ -17,6 +17,7 @@ public class Principal {
                         "6.Peso Chileno a Dolar\n" +
                         "7.Convertir a otra moneda\n" +
                         "8.Salir");
+
             opcion = lectura.nextInt();
             lectura.nextLine();
 
@@ -37,7 +38,7 @@ public class Principal {
                     ConvierteMoneda.convierte("USD", "CLP", consulta, lectura);
                     break;
                 case 6:
-                    ConvierteMoneda.convierte("USD", "CLP", consulta, lectura);
+                    ConvierteMoneda.convierte("CLP", "USD", consulta, lectura);
                     break;
                 case 7:
                     ConvierteMoneda.convertirOtraMoneda(consulta, lectura);
@@ -45,7 +46,6 @@ public class Principal {
                 case 8:
                     System.out.println("El programa finalizó con éxito");
                     break;
-
                 default:
                     System.out.println("Opción no válida");
                     break;
